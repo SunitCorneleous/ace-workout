@@ -1,0 +1,13 @@
+.exercise-card {
+  max-width: 300px;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+.image {
+  width: 95%;
+  display: block;
+  margin: 5px auto;
+  border-radius: 15px;
+}

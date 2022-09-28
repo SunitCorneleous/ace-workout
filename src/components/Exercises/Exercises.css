@@ -1,4 +1,10 @@
 .exercises {
-  padding: 80px 115px;
+  padding: 50px 85px;
   background-color: #e0f2f9;
+}
+
+.exercise-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
 }
