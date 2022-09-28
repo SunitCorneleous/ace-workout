@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+import { getItemFromLS, setItemToLS } from "../../utilities/localStorage";
 import User from "../User/User";
 import "./Details.css";
 
@@ -7,7 +8,14 @@ const Details = ({ time }) => {
 
   const addBreakTimeHandler = input => {
     setBreakTime(input);
+    setItemToLS(input);
   };
+
+  useEffect(() => {
+    const breakTimeFromLS = getItemFromLS();
+    setBreakTime(breakTimeFromLS);
+  }, []);
+
   return (
     <div className="details">
       <User></User>

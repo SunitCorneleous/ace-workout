@@ -2,7 +2,7 @@ import React from "react";
 import "./Exercise.css";
 
 const Exercise = ({ exercise, timeHandler }) => {
-  const { id, image, name, about, age, time } = exercise;
+  const { image, name, about, age, time } = exercise;
   return (
     <div className="exercise-card">
       <img className="image" src={image} alt="exercise" />
