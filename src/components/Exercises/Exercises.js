@@ -14,6 +14,10 @@ const Exercises = () => {
       .then(data => setExercises(data));
   }, []);
 
+  const addTimeHandler = minute => {
+    console.log(minute);
+  };
+
   return (
     <div className="main-container">
       <div className="exercises">
@@ -21,7 +25,11 @@ const Exercises = () => {
         <h2>Select Exercises</h2>
         <div className="exercise-container">
           {exercises.map(exercise => (
-            <Exercise key={exercise.id} exercise={exercise}></Exercise>
+            <Exercise
+              key={exercise.id}
+              exercise={exercise}
+              timeHandler={addTimeHandler}
+            ></Exercise>
           ))}
         </div>
       </div>
