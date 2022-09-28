@@ -22,8 +22,10 @@ const Exercises = () => {
   return (
     <div className="main-container">
       <div className="exercises">
-        <h1>ACE WORKOUT</h1>
-        <h2>Select Exercises</h2>
+        <div className="title">
+          <h1>ACE WORKOUT</h1>
+          <h2>Select Exercises</h2>
+        </div>
         <div className="exercise-container">
           {exercises.map(exercise => (
             <Exercise

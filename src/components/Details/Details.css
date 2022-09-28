@@ -1,5 +1,5 @@
 .details {
-  padding: 25px 40px 0;
+  padding: 50px 35px 0;
   background-color: #f5f4f4;
 }
 
@@ -37,4 +37,10 @@
 .btn-group button:hover {
   background-color: #4272ea;
   color: #fff;
+}
+
+@media screen and (max-width: 992px) and (max-width: 668px) {
+  .details {
+    padding: 50px 85px 0;
+  }
 }

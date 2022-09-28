@@ -29,3 +29,16 @@
 .add-to-btn:hover {
   background-color: #5f7ee4;
 }
+
+@media screen and (max-width: 668px) {
+  .exercise-card {
+    margin: 0 auto;
+    max-width: 400px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .exercise-card {
+    margin: 0 auto;
+    max-width: 400px;
+  }
+}
