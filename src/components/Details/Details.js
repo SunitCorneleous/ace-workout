@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import User from "../User/User";
 import "./Details.css";
 
 const Details = ({ time }) => {
+  const [breakTime, setBreakTime] = useState("");
+
+  const addBreakTimeHandler = input => {
+    setBreakTime(input);
+  };
   return (
     <div className="details">
       <User></User>
@@ -11,11 +16,21 @@ const Details = ({ time }) => {
           <h2>Add A Break</h2>
           <div className="details-container">
             <div className="btn-group">
-              <button>10s</button>
-              <button>20s</button>
-              <button>30s</button>
-              <button>40s</button>
-              <button>50s</button>
+              <button onClick={e => addBreakTimeHandler(e.target.innerText)}>
+                10s
+              </button>
+              <button onClick={e => addBreakTimeHandler(e.target.innerText)}>
+                20s
+              </button>
+              <button onClick={e => addBreakTimeHandler(e.target.innerText)}>
+                30s
+              </button>
+              <button onClick={e => addBreakTimeHandler(e.target.innerText)}>
+                40s
+              </button>
+              <button onClick={e => addBreakTimeHandler(e.target.innerText)}>
+                50s
+              </button>
             </div>
           </div>
         </div>
@@ -29,7 +44,9 @@ const Details = ({ time }) => {
           </div>
           <div className="details-container">
             <p>Break time</p>
-            <p>15s</p>
+            <strong>
+              <p>{breakTime || "0s"}</p>
+            </strong>
           </div>
         </div>
         <button className="add-to-btn">Activity Completed</button>
