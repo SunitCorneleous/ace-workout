@@ -12,3 +12,20 @@
   margin: 5px auto;
   border-radius: 15px;
 }
+
+.add-to-btn {
+  border: none;
+  padding: 12px 0;
+  width: 100%;
+  font-size: 1.1rem;
+  font-weight: 500;
+  border-radius: 10px;
+  background-color: #476be2;
+  color: #fff;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.add-to-btn:hover {
+  background-color: #5f7ee4;
+}

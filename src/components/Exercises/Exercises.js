@@ -34,7 +34,7 @@ const Exercises = () => {
           ))}
         </div>
       </div>
-      <Details></Details>
+      <Details time={time}></Details>
     </div>
   );
 };

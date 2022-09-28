@@ -14,7 +14,9 @@ const Exercise = ({ exercise, timeHandler }) => {
       <p>
         Time Required: <strong>{time}</strong>
       </p>
-      <button onClick={() => timeHandler(time)}>Add to list</button>
+      <button className="add-to-btn" onClick={() => timeHandler(time)}>
+        Add to list
+      </button>
     </div>
   );
 };
