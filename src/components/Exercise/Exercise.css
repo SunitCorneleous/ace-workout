@@ -3,10 +3,11 @@
   padding: 15px;
   border-radius: 15px;
   background-color: #fff;
+  box-shadow: 2px 2px 15px #cfcdcd;
 }
 
 .image {
-  width: 95%;
+  width: 100%;
   display: block;
   margin: 5px auto;
   border-radius: 15px;

@@ -15,6 +15,7 @@ const Exercises = () => {
   return (
     <div className="exercises">
       <h1>ACE WORKOUT</h1>
+      <h2>Select Exercises</h2>
       <div className="exercise-container">
         {exercises.map(exercise => (
           <Exercise key={exercise.id} exercise={exercise}></Exercise>
