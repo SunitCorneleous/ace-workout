@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import { getItemFromLS, setItemToLS } from "../../utilities/localStorage";
 import User from "../User/User";
 import "./Details.css";
+import { ToastContainer, toast, Slide } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Details = ({ time }) => {
   const [breakTime, setBreakTime] = useState("");
@@ -15,6 +17,8 @@ const Details = ({ time }) => {
     const breakTimeFromLS = getItemFromLS();
     setBreakTime(breakTimeFromLS);
   }, []);
+
+  const notify = () => toast(`Well done you have exercised ${time} minutes.`);
 
   return (
     <div className="details">
@@ -57,8 +61,11 @@ const Details = ({ time }) => {
             </strong>
           </div>
         </div>
-        <button className="add-to-btn">Activity Completed</button>
+        <button className="add-to-btn" onClick={notify}>
+          Activity Completed
+        </button>
       </div>
+      <ToastContainer position="top-left" autoClose={3000} transition={Slide} />
     </div>
   );
 };
