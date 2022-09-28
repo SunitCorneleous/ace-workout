@@ -1,3 +1,8 @@
+.main-container {
+  display: grid;
+  grid-template-columns: 6fr 2fr;
+}
+
 .exercises {
   padding: 50px 85px;
   background-color: #e0f2f9;
@@ -21,5 +26,12 @@
 
   .exercise-container {
     grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* media queries */
+@media screen and (max-width: 992px) {
+  .main-container {
+    grid-template-columns: 1fr;
   }
 }
