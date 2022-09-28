@@ -15,7 +15,8 @@ const Exercises = () => {
   }, []);
 
   const addTimeHandler = minute => {
-    console.log(minute);
+    const newTime = time + parseFloat(minute);
+    setTime(newTime);
   };
 
   return (
