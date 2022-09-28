@@ -6,6 +6,7 @@ import "./Exercises.css";
 
 const Exercises = () => {
   const [exercises, setExercises] = useState([]);
+  const [time, setTime] = useState(0);
 
   useEffect(() => {
     fetch("data.json")
