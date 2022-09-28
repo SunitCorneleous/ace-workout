@@ -1,0 +1,35 @@
+.details {
+  padding: 40px 45px 0;
+  background-color: #f5f4f4;
+}
+
+.user {
+  display: flex;
+  justify-content: space-between;
+  line-height: 10px;
+  width: 80%;
+}
+
+.user img {
+  width: 30%;
+  border-radius: 15px;
+}
+
+.user-detail h3 {
+  font-size: 1.2rem;
+}
+.user-detail p {
+  color: #8d8787;
+  font-weight: 400;
+}
+
+.user-info {
+  background-color: #c6dfef;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 25px;
+  border-radius: 15px;
+  line-height: 1rem;
+  margin: 35px 0 0;
+  text-align: center;
+}

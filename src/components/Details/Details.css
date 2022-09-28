@@ -1,4 +1,14 @@
-.details {
-  padding: 80px 115px;
-  background-color: #f5f4f4;
+.details-container {
+  padding: 5px 35px;
+  margin: 15px 0;
+  border-radius: 15px;
+  background-color: #c6dfef;
+  display: flex;
+  justify-content: space-between;
+}
+
+.details-functions {
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
 }
