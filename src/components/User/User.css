@@ -1,13 +1,22 @@
 .user {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   line-height: 10px;
-  width: 80%;
+  width: 60%;
 }
 
 .user img {
   width: 30%;
   border-radius: 15px;
+}
+
+.user-location {
+  color: #8d8787;
+}
+
+.user-location p {
+  display: inline;
+  margin-left: 5px;
 }
 
 .user-detail h3 {

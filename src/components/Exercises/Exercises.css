@@ -1,6 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Maiden+Orange&family=Manrope:wght@300;400;600&display=swap");
+
 .main-container {
   display: grid;
   grid-template-columns: 6fr 2fr;
+}
+
+.logo {
+  font-family: "Maiden Orange", cursive;
+}
+
+.logo .icon {
+  font-size: 3rem;
+}
+
+.logo h1 {
+  display: inline;
+  font-size: 2.3rem;
 }
 
 .exercises {

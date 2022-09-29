@@ -2,6 +2,8 @@ import React from "react";
 import { useEffect, useState } from "react";
 import Details from "../Details/Details";
 import Exercise from "../Exercise/Exercise";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faDumbbell } from "@fortawesome/free-solid-svg-icons";
 import "./Exercises.css";
 
 const Exercises = () => {
@@ -23,7 +25,10 @@ const Exercises = () => {
     <div className="main-container">
       <div className="exercises">
         <div className="title">
-          <h1>ACE WORKOUT</h1>
+          <div className="logo">
+            <FontAwesomeIcon className="icon" icon={faDumbbell} />
+            <h1>ACE WORKOUT</h1>
+          </div>
           <h2>Select Exercises</h2>
         </div>
         <div className="exercise-container">

@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import "./User.css";
 
 const User = () => {
@@ -9,7 +11,10 @@ const User = () => {
         <img src="https://www.w3schools.com/howto/img_avatar.png" alt="user" />
         <div className="user-detail">
           <h3>Sunit Corneleous</h3>
-          <p>Dhaka, Bangladesh</p>
+          <div className="user-location">
+            <FontAwesomeIcon icon={faLocationDot} />
+            <p>Dhaka, Bangladesh</p>
+          </div>
         </div>
       </div>
       {/* user informations */}
