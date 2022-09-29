@@ -1,4 +1,12 @@
 .questions-container {
   background-color: #fee9c5;
-  padding: 35px 45px;
+  padding: 50px 45px;
+}
+
+@media screen and (max-width: 668px) {
+  .questions-container {
+    background-color: #fee9c5;
+    padding: 50px 45px;
+    width: 500px;
+  }
 }

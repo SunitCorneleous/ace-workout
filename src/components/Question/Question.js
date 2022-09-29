@@ -3,7 +3,7 @@ import "./Question.css";
 
 const Question = ({ question }) => {
   return (
-    <div>
+    <div className="question-container">
       <h2>{question.questions}</h2>
       <p>{question.answer}</p>
     </div>

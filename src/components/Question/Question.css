@@ -1,0 +1,8 @@
+.question-container {
+  width: 97%;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: #fff;
+  margin: 15px 0;
+  border: 1px solid #ff4500;
+}
