@@ -20,14 +20,14 @@
   font-size: 1.1rem;
   font-weight: 500;
   border-radius: 10px;
-  background-color: #476be2;
+  background-color: #ee6d0a;
   color: #fff;
   cursor: pointer;
   margin: 10px 0;
 }
 
 .add-to-btn:hover {
-  background-color: #5f7ee4;
+  background-color: #e48e5f;
 }
 
 @media screen and (max-width: 668px) {

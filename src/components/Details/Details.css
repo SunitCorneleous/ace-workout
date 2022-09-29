@@ -7,7 +7,7 @@
   padding: 5px 35px;
   margin: 15px 0;
   border-radius: 15px;
-  background-color: #c6dfef;
+  background-color: #efdec6;
   display: flex;
   justify-content: space-between;
 }
@@ -35,7 +35,7 @@
 }
 
 .btn-group button:hover {
-  background-color: #4272ea;
+  background-color: #ee6d0a;
   color: #fff;
 }
 
