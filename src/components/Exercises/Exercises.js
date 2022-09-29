@@ -29,8 +29,9 @@ const Exercises = () => {
             <FontAwesomeIcon className="icon" icon={faDumbbell} />
             <h1>ACE WORKOUT</h1>
           </div>
-          <h2>Select Exercises</h2>
+          <p>Select Exercises to start</p>
         </div>
+        <div className="line"></div>
         <div className="exercise-container">
           {exercises.map(exercise => (
             <Exercise
