@@ -24,7 +24,7 @@ const User = () => {
           <p>Weight</p>
         </div>
         <div className="height">
-          <h3>6.5</h3>
+          <h3>6'1"</h3>
           <p>Height</p>
         </div>
         <div className="age">

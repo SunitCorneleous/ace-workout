@@ -2,16 +2,16 @@
     {
         "id": "63355055e79b67b37e2e1d7a",
         "questions": "How does react works?",
-        "answer": "Duis commodo reprehenderit commodo eiusmod ea fugiat. Enim id duis pariatur deserunt proident adipisicing ad aute tempor consectetur velit ex velit. Do amet dolore anim dolore veniam exercitation et nulla eu nulla consequat enim laboris eu. Id aliquip aute officia ea veniam esse ad id id consectetur aliquip eiusmod eiusmod. Ipsum ad est dolor do nulla veniam fugiat sint pariatur est proident.\r\n"
+        "answer": "React is a javascript library for building user interfaces. React uses JSX javascript syntax extension for creating react elements which are rendered as plain HTML. React uses virtual dom to identify changes in the main dom using diff algorithm. React divides the ui as isolated reusable pieces of code which is known as components. "
     },
     {
         "id": "63355055c6f1e0703fcce443",
         "questions": "Props Vs State?",
-        "answer": "Id anim elit qui magna ut. Ullamco officia ex adipisicing ea Lorem elit in quis dolore enim. Irure cupidatat ex irure ullamco ipsum exercitation dolore fugiat minim esse sit. In do consequat id dolore eu enim esse excepteur dolore consequat. Duis dolor ullamco in irure nisi cillum voluptate enim esse ut labore. Exercitation et sit aute eu nostrud ad ea. Fugiat magna exercitation anim ipsum velit cupidatat ullamco duis ipsum sint.\r\n"
+        "answer": "Props are read only objects which are passed from component to component. Props are passed like HTML attributes. Props are unidirectional. Props are immutable so we can not modify them inside the components. State is an updatable structure which is used for storing data. In components states are used as variable which can be updated. It can be changed when user trigger a certain event and it can only be changed inside a component or by component directly."
     },
     {
         "id": "6335505539bd725b4a68fca7",
         "questions": "What are the uses of useEffect beside api fetch?",
-        "answer": "Est dolore do sint est. Cupidatat voluptate enim veniam velit ad incididunt enim consequat ullamco fugiat amet nostrud. Commodo amet mollit eiusmod culpa occaecat labore cillum. Do dolore dolor consequat sit labore cupidatat laboris duis minim ex incididunt qui anim. Ad nostrud adipisicing tempor ea minim ad enim elit quis cillum sint irure. Ullamco amet sint sunt aliquip.\r\n"
+        "answer": "useEffect is a react hook which is used for causing side effects in functional component. It is used to fetch data which is not present in code. It can be used to fetch data from local storage or from json file. It can also be used to do a certain action when the app mount and we can set a dependency so that it will run when the dependency is updated."
     }
 ]
