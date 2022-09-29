@@ -1,12 +1,13 @@
 import "./App.css";
 
 import Exercises from "./components/Exercises/Exercises";
+import Questions from "./components/Questions/Questions";
 
 function App() {
   return (
     <div className="App">
       <Exercises></Exercises>
-      {/* bottom questions and answers */}
+      <Questions></Questions>
     </div>
   );
 }
